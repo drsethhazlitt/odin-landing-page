@@ -1,0 +1,150 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 70%;
+}
+
+.header {
+    background-color: rgb(9, 30, 53);
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+.section1,
+.section2,
+.section3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 0;
+    border: 2px dotted red;
+}
+
+.section1 {
+    background-color: rgb(9, 30, 53);
+}
+
+.section2 {
+    background-color: #fff;
+}
+
+.section3 {
+    background-color: lightgrey;
+}
+
+.hero,
+.examples,
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*HERO SECTION*/
+h1 {
+    color: #fff;
+}
+
+.subtext-hero {
+    color: #fff;
+    padding-bottom: 16px;
+}
+
+button {
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 8px 10px;
+    text-wrap: nowrap;
+    background-color: royalblue;
+}
+
+.hero-right img {
+    width: 200px;
+    height: auto;
+}
+
+/*EXAMPLES SECTION*/
+.item {
+    text-align: center;
+    width: 150px;
+}
+
+.item img {
+    width: 150px;
+    height: auto;
+    border: 4px solid royalblue;
+    border-radius: 30px;
+}
+
+.subtext-img {
+    padding-top: 10px;;
+}
+
+/*QUOTE SECTION*/
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+}
+
+.quotation {
+    font-size: 26px;
+    font-weight:lighter;
+    padding-bottom: 20px;
+}
+
+.citation {
+    align-self: flex-end;
+    font-weight: 700;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: royalblue;
+    color: #fff;
+    padding: 30px 80px;
+    gap: 10px;
+}
+
+.action-title {
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(9, 30, 53);
+    color: #fff;
+    padding: 20px 0;
+}
