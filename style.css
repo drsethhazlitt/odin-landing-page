@@ -4,17 +4,18 @@
 
 .wrapper {
     width: 70%;
+    max-width: 960px;
 }
 
 .header {
-    background-color: rgb(33, 45, 59);
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
 }
 
 .logo{
-    color: #fff;
-    font-size: 16px;
+    color: #F9FAF8;
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -32,8 +33,9 @@ ul {
 
 li {
     list-style: none;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 300;
+    color: #E5E7EB;
 }
 
 .section1,
@@ -47,15 +49,16 @@ li {
 }
 
 .section1 {
-    background-color: rgb(33, 45, 59);
+    background-color: #1F2937;
 }
 
 .section2 {
     background-color: #fff;
+    padding: 10px 0 60px 0;
 }
 
 .section3 {
-    background-color: rgb(233, 236, 240);
+    background-color: #E5E7EB;
 }
 
 .hero {
@@ -63,7 +66,7 @@ li {
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    border: 2px dotted blue;
+    /* border: 2px dotted blue; */
 }
 
 .examples,
@@ -75,18 +78,17 @@ li {
 
 /*HERO SECTION*/
 h1 {
-    color: #fff;
+    color: #F9FAF8;
     padding-bottom: 0px;
-    border: 2px dotted red;
+    font-size: 48px;
     margin: 0 0;
 }
 
 .hero-left {
-    flex: 1 1 auto;
     width: 50%;
     padding: 0 0;
     margin: 0;
-    border: 2px dotted green;
+    /* border: 2px dotted green; */
 }
 
 .subtext-hero {
@@ -103,17 +105,28 @@ button {
     padding: 5px 30px;
     margin: 0;
     text-wrap: nowrap;
-    background-color: rgb(60, 139, 250);;
+    background-color: #3882F6;
 }
 
 .hero-right {
     width: 50%;
-    flex: 1 1 auto;
-    object-fit: contain;
-    border: 2px dotted red;
+    margin: 0 0;
+    /* border: 2px dotted red; */
+}
+
+.hero-right img {
+    width: 100%;
+    object-fit: cover;
 }
 
 /*EXAMPLES SECTION*/
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
 .item {
     text-align: center;
     width: 150px;
@@ -142,20 +155,21 @@ button {
 .quote {
     display: flex;
     flex-direction: column;
-    padding: 40px 40px;
+    padding: 20px 80px 20px 80px;
+    align-items: center;
 }
 
 .quotation {
     font-size: 26px;
     font-weight: 100;
     font-style: italic;
-    line-height: 1.8rem;
+    line-height: 36px;
 }
 
 .citation {
     align-self: flex-end;
     font-weight: 600;
-    padding-top: 10px; 
+    padding: 10px 40px 0 0; 
 }
 
 .action-title {
@@ -166,7 +180,7 @@ button {
 
 .call-to-action {
     display: flex;
-    background-color: rgb(60, 139, 250);
+    background-color: #3882F6;
     border-radius: 10px;
     color: #fff;
     padding: 30px 80px;
@@ -176,7 +190,7 @@ button {
 .footer {
     display: flex;
     justify-content: center;
-    background-color: rgb(9, 30, 53);
+    background-color: #1F2937;
     color: #fff;
     padding: 20px 0;
 }
