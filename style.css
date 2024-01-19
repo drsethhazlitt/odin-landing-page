@@ -59,7 +59,7 @@ li {
 
 .section1 {
     background-color: #1F2937;
-    border: 2px dotted red;
+    /* border: 2px dotted red; */
 }
 
 .section2 {
@@ -76,7 +76,7 @@ li {
     justify-content: space-between;
     align-items: stretch;
     gap: 40px;
-    border: 2px dotted blue;
+    /* border: 2px dotted blue; */
 }
 
 .examples,
@@ -101,7 +101,7 @@ h1 {
     padding: 0 0;
     margin: 0;
     flex: 1 1 auto;
-    border: 2px dotted green;
+    /* border: 2px dotted green; */
 }
 
 .subtext-hero {
